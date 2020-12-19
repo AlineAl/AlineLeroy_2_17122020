@@ -1,0 +1,18 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* components */
+@import "components/navbar.css";
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    margin: 0 auto; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

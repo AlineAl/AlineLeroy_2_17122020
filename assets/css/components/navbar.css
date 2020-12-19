@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-navbar {
+    list-style: none;
+}
+
+.links-navbar li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+
+.logo-reservia {
+    width: 97px;
+    height: 45px;
+    padding: 0px 30px;
+}
+
+.dark-blue {
+    color: #0065FC;
+}
+
+.bold {
+    font-weight: bold;
+}
