@@ -1,15 +1,22 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* components */
 @import "components/navbar.css";
+@import "components/form.css";
+@import "components/filtres.css";
 
 * {
     font-family: 'Raleway', sans-serif;
+    outline: 0;
 }
 
-header {
-    margin: 0 auto; 
+body {
+    margin: 0px 40px;
 }
 
 a {

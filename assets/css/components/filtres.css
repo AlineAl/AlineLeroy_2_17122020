@@ -1,0 +1,21 @@
+.filtres {
+    display: flex;
+}
+
+.filtres-list {
+    list-style: none;
+}
+
+.filtres-list li {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.no-margin-right {
+    margin-right: 0px;
+}
+
+.custom-icons {
+    border-radius: 50%;
+    background-color: #F2F2F2;
+}
