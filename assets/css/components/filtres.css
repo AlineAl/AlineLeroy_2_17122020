@@ -1,21 +1,72 @@
-.filtres {
-    display: flex;
+.card-filtre {
+    background-color: white;
+    border: #F2F2F2 solid 2px;
+    padding: 15px 20px;
+    padding-left: 60px;
+    border-radius: 30px;
+    margin-right: 30px;
+    position: relative;
 }
 
-.filtres-list {
-    list-style: none;
+.icon-rounded {
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    padding: 16px;
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    color: #0065FC;
 }
 
-.filtres-list li {
+.icon-rounded-familial {
+    padding: 16px 20px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    color: #0065FC;
+}
+
+.icon-rounded-heart {
+    padding: 16px 18px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    color: #0065FC;
+}
+
+.icon-rounded-dog {
+    padding: 16px 18px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    color: #0065FC;
+}
+
+.filtre-margin-right {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.filtres-grid li {
     display: inline-block;
-    margin-left: 36px;
-}
-
-.no-margin-right {
-    margin-right: 0px;
+    align-items: center;
 }
 
 .custom-icons {
     border-radius: 50%;
     background-color: #F2F2F2;
+}
+
+.icon-info {
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: #F2F2F2 solid 2px;
+    margin-right: 5px;
+    color: #0065FC;
 }
