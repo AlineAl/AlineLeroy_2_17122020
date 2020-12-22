@@ -21,9 +21,9 @@
                 </div>   
             </div>
 
-        <section id="search">
+        <header>
             <div class="search">
-                <h1 class="bold no-margin">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h2 class="bold no-margin">Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
 
                 <form method="get" action="#">
@@ -31,28 +31,34 @@
                         <div class="custom-map"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <label for="localisation"></label>
-                            <input type="text" name="localisation"><input type="submit" value="Rechercher" class="button">
+                            <input type="text" name="localisation" class="bold"><input type="submit" value="Rechercher" class="button">
                         </div>  
                     </div> 
                 </form>
 
-                <div class="filtres">
-                    <div>
-                        <p class="bold no-margin-right">Filtres</p>
-                    </div>
-                    <div>
-                       <ul class="filtres-list">
-                            <li><i class="fas fa-money-bill-wave"></i> Economique</li>
-                            <li><i class="fas fa-child"></i>Familial</li>
-                            <li><i class="fas fa-heart"></i>Romantique</li>
-                            <li><i class="fas fa-dog"></i>Animaux autorisés</li>
-                        </ul> 
+                    <div class="filtres-grid margin-top">
+                        <div class="bold filtre-margin-right">Filtres</div>
+                        <div class="card-filtre">
+                            <div><span class="icon-rounded"><i class="fas fa-money-bill-wave"></i></span>
+                            <span class="bold center">Economique</span></div>
+                        </div>
+                        <div class="card-filtre">
+                            <div><span class="icon-rounded"><i class="fas fa-child"></i></span>
+                            <span class="bold center">Familial</span></div>
+                        </div>
+                        <div class="card-filtre">
+                            <div><span class="icon-rounded"><i class="fas fa-heart"></i></span>
+                            <span class="bold center">Romantique</span></div> 
+                        </div>
+                        <div class="card-filtre">
+                            <div><span class="icon-rounded"><i class="fas fa-dog"></i></span>
+                            <span class="bold center">Animaux autorisés</span></div> 
+                        </div>
                     </div>  
-                </div>
 
                 <p></p>
             </div>
-        </section>
+        </header>
 
         <section id="articles">
             <h1></h1>

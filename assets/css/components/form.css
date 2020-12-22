@@ -25,3 +25,6 @@ input {
     border-right: none;
     font-size: 18px;
 }
+.input[type=text] {
+    font-weight: bold;
+}
