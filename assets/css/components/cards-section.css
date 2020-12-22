@@ -1,0 +1,52 @@
+.card-grise-hebergement {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.card-grise-hebergement h2 {
+    padding-top: 51px;
+    padding-left: 38px;
+}
+
+.padding-p {
+    padding-left: 38px;
+    padding-bottom: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+
+.card-hebergement {
+    background-color: white;
+    width: 247px;
+    height: 197px;
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    border: white solid 4px;
+    margin: 16px;
+}
+
+.card-hebergement h4 {
+    margin-bottom: 4px;
+}
+
+.card-hebergement p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.card-hebergement i {
+    color: #0065FC;
+}
+
+.card-hebergement-img {
+    width: 100%;
+    height: 118px;
+    object-fit: cover; 
+    border-radius: 15px 15px 0px 0px;
+}
