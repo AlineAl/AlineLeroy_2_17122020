@@ -10,6 +10,7 @@
 @import "components/form.css";
 @import "components/filtres.css";
 @import "components/cards-section.css";
+@import "components/footer.css";
 
 * {
     font-family: 'Raleway', sans-serif;
@@ -17,7 +18,7 @@
 }
 
 body {
-    margin: 0px 40px;
+    margin: 0 auto;
 }
 
 a {
@@ -27,6 +28,11 @@ a {
 
 .bold {
     font-weight: bold;
+}
+
+.margin {
+    margin-left: 40px;
+    margin-right: 30px;
 }
 
 .no-margin {
