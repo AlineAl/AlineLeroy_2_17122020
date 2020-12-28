@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px)
+{ 
+    /* NAVBAR */
+    .links-navbar li:hover {
+        border-bottom: #0065FC solid 3px;
+        border-top: none;
+    }
+
+    /* FORM */
+}
