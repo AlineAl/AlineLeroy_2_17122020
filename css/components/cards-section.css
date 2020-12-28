@@ -79,15 +79,16 @@
     position: relative;
 }
 
-.h2-absolute {
-    position: absolute;
-    right: -28px;
-}
-
 .titre-populaire {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.titre-populaire i {
+    position: absolute;
+    right: -70px;
+    top: 38px;
 }
 
 .card-populaire {
@@ -134,7 +135,6 @@
 
 .titre-activites {
     margin-top: 50px;
-    padding: none;
 }
 
 .cards-activites-generale {
