@@ -117,7 +117,7 @@
     margin-left: 16px;
 }
 
-#start-end {
+.start-end {
     position: absolute;
     bottom: 6px;
     color:#0065FC;
