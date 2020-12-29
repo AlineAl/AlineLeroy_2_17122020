@@ -1,10 +1,94 @@
 @media screen and (max-width: 768px)
 { 
+
     /* NAVBAR */
+
+    .flex-reverse-inscrire {
+        justify-content: end;
+    }
+
+    .links-navbar {
+        flex-direction: column-reverse;
+    }
+
     .links-navbar li:hover {
         border-bottom: #0065FC solid 3px;
         border-top: none;
     }
 
+    .inline-links {
+        display: flex;
+    }
+
+    .list-inscrire {
+        justify-content: space-between;
+    }
+
     /* FORM */
+
+    .button-fontawesome {
+        position: absolute;
+        display: flex;
+        background-color: #0065FC;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 19px 20px;
+        border-radius: 16px 16px 16px 16px;
+        top: 0px;
+        right: 56px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    /* FILTRES */
+
+    .card-filtre-mobile {
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+
+    /* CARDS HEBERGEMENTS */
+
+    .card-grise-hebergement-mobile {
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .card-hebergement-mobile {
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .card-hebergement-mobile img {
+        object-fit: cover;
+    }
+
+    .padding-p-mobile {
+        padding-left: 16px;
+    }
+
+     /* CARDS POPULAIRES */
+
+    .card-grise-populaire-mobile {
+        background-color: white;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .card-grise-populaire-mobile i {
+        right: -156px;
+        margin-top: 4px;
+    }
+
+    .card-populaire-mobile {
+        width: 100%;
+    }
+
+    /* CARDS ACTIVITES */
+
+    
 }

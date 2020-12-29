@@ -18,9 +18,13 @@
                 </svg>
 
             <ul class="links-navbar no-margin">
-                <li><a href="#" class="dark-blue">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="#" class="dark-blue bold">S'inscrire</a></li>
+                <div class="inline-links">
+                    <li><a href="#" class="dark-blue">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li> 
+                </div>
+                <div class="list-inscrire">
+                    <li><a href="#" class="dark-blue bold">S'inscrire</a></li> 
+                </div>
             </ul>   
         </nav>
 
@@ -36,7 +40,7 @@
                         <div class="custom-map"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <label for="localisation"></label>
-                            <input id="localisation" type="text" name="localisation" class="bold"><input type="submit" value="Rechercher" class="button">
+                            <input id="localisation" type="text" name="localisation" class="bold"><input type="submit" value="Rechercher" class="button"><button type="button" class="button-fontawesome"><i class="fas fa-search"></i></button>
                         </div>  
                     </div> 
                 </form>
@@ -45,19 +49,19 @@
 
             <ul class="filtres-grid margin-top margin no-padding">
                 <li class="bold filtre-margin-right">Filtres</li>
-                <li class="card-filtre none-list">
+                <li class="card-filtre card-filtre-mobile none-list">
                     <span class="icon-rounded"><i class="fas fa-money-bill-wave"></i></span>
                     <span class="bold center">Economique</span>
                 </li>
-                <li class="card-filtre none-list">
+                <li class="card-filtre card-filtre-mobile none-list">
                     <span class="icon-rounded-familial"><i class="fas fa-child"></i></span>
                     <span class="bold center">Familial</span>
                 </li>
-                <li class="card-filtre none-list">
+                <li class="card-filtre card-filtre-mobile none-list">
                     <span class="icon-rounded-heart"><i class="fas fa-heart"></i></span>
                     <span class="bold center">Romantique</span>
                 </li>
-                <li class="card-filtre none-list">
+                <li class="card-filtre card-filtre-mobile none-list">
                     <span class="icon-rounded-dog"><i class="fas fa-dog"></i></span>
                     <span class="bold center">Animaux autorisés</span>
                 </li>  
@@ -73,64 +77,65 @@
 
                 <!-- HEBERGEMENTS -->
 
-                <div class="card-grise-hebergement margin">
+                <div class="card-grise-hebergement card-grise-hebergement-mobile
+                margin">
                    <h2>Hébergements à Marseille</h2>
                     <div class="cards">
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Auberge la Cannebière</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">25€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
                         </div>
 
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Hôtel du port</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">52€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         </div>
 
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Hôtel Les mouettes</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">76€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
                         </div>
 
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Hôtel de la mer</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">46€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
                         </div>
 
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Auberge le Panier</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">23€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
                         </div>
 
-                        <div class="card-hebergement">
+                        <div class="card-hebergement card-hebergement-mobile ">
                             <img src="images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="#" class="card-hebergement-img">
                             <h4 class="no-margin">Hôtel chez Amina</h4>
                             <p class="no-margin">Nuit à partir de <span class="bold">96€</span></p>
                             <p class="no-margin"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         </div>  
                     </div> 
-                    <p class="bold padding-p">Afficher plus</p>
+                    <p class="bold padding-p padding-p-mobile">Afficher plus</p>
                 </div>
                  
                 
                 <!--POPULAIRES -->
 
-                <div class="card-grise-populaire">
+                <div class="card-grise-populaire card-grise-populaire-mobile">
                     <div class="titre-populaire">
                         <h2>Les plus populaires 
                         <i class="fas fa-chart-line"></i></h2>
                     </div>
                     <div class="cards">
-                       <div class="card-populaire">
+                       <div class="card-populaire card-populaire-mobile">
                            <div class="card-flex">
                                 <div>
                                     <img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="#" class="card-populaire-img">
@@ -143,7 +148,7 @@
                             </div>   
                         </div>
 
-                        <div class="card-populaire">
+                        <div class="card-populaire card-populaire-mobile">
                             <div class="card-flex">
                                  <div>
                                      <img src="images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="#" class="card-populaire-img">
@@ -156,7 +161,7 @@
                              </div>   
                         </div>
 
-                        <div class="card-populaire">
+                        <div class="card-populaire card-populaire-mobile">
                             <div class="card-flex">
                                  <div>
                                      <img src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="#" class="card-populaire-img">

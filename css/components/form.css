@@ -21,6 +21,10 @@
     position: absolute;
 }
 
+button {
+    display: none;
+}
+
 input {
     padding: 16px 32px;
     border: #F2F2F2 solid 1px;

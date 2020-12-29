@@ -6,6 +6,7 @@
     border-radius: 30px;
     margin-right: 30px;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .icon-rounded {
