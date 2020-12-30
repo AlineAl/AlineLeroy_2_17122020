@@ -3,15 +3,11 @@
 
     /* NAVBAR */
 
-    .flex-reverse-inscrire {
-        justify-content: end;
-    }
-
     .links-navbar {
         flex-direction: column-reverse;
     }
 
-    .links-navbar li:hover {
+    .links-padding:hover {
         border-bottom: #0065FC solid 3px;
         border-top: none;
     }
@@ -20,8 +16,9 @@
         display: flex;
     }
 
-    .list-inscrire {
-        justify-content: space-between;
+    .hebergement-activite-width {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* FORM */
@@ -48,7 +45,15 @@
 
     .card-filtre-mobile {
         margin-top: 16px;
-        justify-content: space-between;
+    }
+
+    .display-block-filtre {
+        display: block;
+    }
+
+    .display-flex-filtre {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /* CARDS HEBERGEMENTS */
@@ -88,7 +93,30 @@
         width: 100%;
     }
 
+    .titre-populaire h2 {
+        padding-right: 192px;
+    }
+
     /* CARDS ACTIVITES */
 
-    
+    .card-activite-mobile {
+        width: 100%;
+        height: 192px;
+        margin-bottom: 22px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .card-activite-mobile img {
+        width: 100%;
+        height: 133px;
+    }
+
+    /* FOOTER */
+
+    .footer-mobile {
+        padding-left: 40px;
+        width: 100%;
+    }
 }
