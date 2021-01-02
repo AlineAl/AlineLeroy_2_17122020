@@ -15,24 +15,90 @@
 
 /* RESOLUTION TABLETTE */
 
-@media screen and (min-width: 768px) and (max-width: 992px) 
+@media screen and (min-width: 576px) and (max-width: 768px) 
 {
     /* FILTRES */
-    
-    body {
-        color: red;
+
+    .filtre-margin-right {
+        align-items: center;
+    }
+
+    .card-filtre {
+        align-items: center;
+    }
+
+    /* CARDS HEBERGEMENTS */
+
+    .card-grise-hebergement {
+        margin-right: 40px;
+        width: 100%;
+    }
+
+    .cards-hebergement {
+        justify-content: space-around;
+    }
+
+    .card-hebergement {
+        width: 42%;
+    }
+
+    /* CARDS POPULAIRES */
+
+    .card-grise-populaire {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 62px;
+        width: 100%;
+    }
+
+    .cards-populaire {
+        justify-content: space-between;
+    }
+
+    .card-populaire {
+        width: 100%;
+    }
+
+    .titre-populaire {
+        justify-content: space-between;
+    }
+
+    /* CARDS ACTIVITES */
+
+    .cards-activites-generale {
+        justify-content: space-between;
+        width: 100%;
+        margin-right: 40px;
+    }
+
+    .grandes-cards-activites {
+        margin-bottom: 26px;
+        width: 44%;
+    }
+
+    .petites-cards-activites {
+        width: 300px;
+    }
+
+    /* FOOTER */
+
+    .margin-footer {
+        margin-right: 166px;
     }
 }
 
 /* RESOLUTION MOBILE */
 
-@media screen and (max-width: 768px)
+@media screen and (min-width : 320px) and (max-width: 576px)
 { 
 
     /* NAVBAR */
 
     .links-navbar {
         flex-direction: column-reverse;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .links-padding:hover {
@@ -40,13 +106,8 @@
         border-top: none;
     }
 
-    .inline-links {
-        display: flex;
-    }
-
-    .hebergement-activite-width {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .display-flex {
+        justify-content: space-around;
     }
 
     /* FORM */
@@ -84,8 +145,12 @@
         flex-wrap: wrap;
     }
 
-    /* CARDS HEBERGEMENTS ET MOBILES */
+    .margin-info {
+        margin-right: 40px;
+        margin-bottom: 16px;
+    }
 
+    /* CARDS HEBERGEMENTS ET MOBILES */
 
     /* CARDS HEBERGEMENTS */
 
@@ -113,7 +178,6 @@
         background-color: white;
         margin: 0px;
         width: 100%;
-
     }
 
     .card-grise-populaire-mobile i {
@@ -123,10 +187,6 @@
 
     .card-populaire-mobile {
         width: 100%;
-    }
-
-    .titre-populaire h2 {
-        padding-right: 192px;
     }
 
     /* CARDS ACTIVITES */
