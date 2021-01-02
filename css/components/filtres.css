@@ -1,3 +1,13 @@
+.card-general-filtre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-flex-filtre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card-filtre {
     background-color: white;
     border: #F2F2F2 solid 2px;
@@ -49,13 +59,8 @@
 }
 
 .filtre-margin-right {
-    margin-right: 30px;
-    margin-left: 0px;
-}
-
-.filtres-grid li {
-    display: inline-block;
-    align-items: center;
+    margin-top: 16px;
+    margin-right: 32px;
 }
 
 .custom-icons {

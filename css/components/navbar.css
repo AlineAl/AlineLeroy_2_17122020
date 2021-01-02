@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-left: 40px;
@@ -7,17 +8,20 @@
 }
 
 .links-navbar {
-    list-style: none;
+    display: flex;   
 }
 
-.links-navbar li {
-    display: inline-block;
+.links-padding {
     padding: 30px;
     background-color: white;
 }
 
-.links-navbar li:hover {
+.links-padding:hover {
     border-top: #0065FC solid 1px;
+}
+
+.margin-left-links {
+    margin-left: 16px;
 }
 
 .logo-reservia {

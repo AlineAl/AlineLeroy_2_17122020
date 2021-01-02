@@ -72,22 +72,21 @@
     flex-wrap: wrap;
 }
 
-.card-grise-populaire h2 {
-    padding-top: 35px;
-    padding-left: 16px;
-    padding-right: 61px;
-    position: relative;
-}
-
-.h2-absolute {
-    position: absolute;
-    right: -28px;
-}
-
 .titre-populaire {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 16px;
+    margin: 0px;
+}
+
+.titre-populaire h2 {
+    padding-right: 107px;
+}
+
+.titre-populaire i {
+    font-size: 22px;
 }
 
 .card-populaire {
@@ -134,7 +133,6 @@
 
 .titre-activites {
     margin-top: 50px;
-    padding: none;
 }
 
 .cards-activites-generale {
