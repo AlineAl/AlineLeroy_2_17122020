@@ -1,7 +1,6 @@
 .custom-form {
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .custom-map {
@@ -16,9 +15,8 @@
     border: none;
     color: white;
     font-weight: bold;
-    padding: 18px 24px;
+    padding: 16px 24px;
     border-radius: 0px 16px 16px 0px;
-    position: absolute;
 }
 
 button {
