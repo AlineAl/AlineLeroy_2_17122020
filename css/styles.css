@@ -116,7 +116,6 @@
     }
 
     .button-fontawesome {
-        position: absolute;
         display: flex;
         background-color: #0065FC;
         border: none;
@@ -125,8 +124,6 @@
         font-weight: bold;
         padding: 19px 20px;
         border-radius: 16px 16px 16px 16px;
-        margin-top: 0px;
-        margin-left: 282px;
     }
 
     .button {
