@@ -1,6 +1,6 @@
 .custom-form {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .custom-map {
