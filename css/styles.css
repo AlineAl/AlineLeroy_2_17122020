@@ -111,7 +111,7 @@
 
     /* FORM */
 
-    .form {
+    form {
         width: 100%;
     }
 
@@ -124,6 +124,11 @@
         font-weight: bold;
         padding: 19px 20px;
         border-radius: 16px 16px 16px 16px;
+    }
+
+    .position-button {
+        position: absolute;
+        margin-left: 296px;
     }
 
     .button {
