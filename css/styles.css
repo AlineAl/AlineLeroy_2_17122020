@@ -111,6 +111,10 @@
 
     /* FORM */
 
+    form {
+        margin-right: 40px;
+    }
+
     .button-fontawesome {
         display: flex;
         background-color: #0065FC;
