@@ -124,11 +124,15 @@
 
     .position-button {
         position: absolute;
-        margin-left: 256px;
+        margin-left: 226px;
     }
 
     .button {
         display: none;
+    }
+
+    input {
+        width: 120px;
     }
 
     /* FILTRES */
