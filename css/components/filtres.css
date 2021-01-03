@@ -15,6 +15,7 @@
     padding-left: 60px;
     border-radius: 30px;
     margin-right: 30px;
+    margin-top: 16px;
     position: relative;
 }
 
@@ -59,8 +60,8 @@
 }
 
 .filtre-margin-right {
-    margin-top: 16px;
     margin-right: 32px;
+    margin-top: 32px;
 }
 
 .custom-icons {
@@ -74,4 +75,9 @@
     border: #F2F2F2 solid 2px;
     margin-right: 5px;
     color: #0065FC;
+}
+
+.margin-info {
+    margin-left: 40px;
+    margin-top: 16px;
 }

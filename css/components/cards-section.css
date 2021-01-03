@@ -24,7 +24,7 @@
     padding-bottom: 16px;
 }
 
-.cards {
+.cards-hebergement {
     display: flex;
     flex-wrap: wrap;  
 }
@@ -68,17 +68,14 @@
     border-radius: 15px;
     padding: 14px;
     width: 402px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .titre-populaire {
     display: flex;
     align-items: center;
-    width: 100%;
     padding-top: 35px;
     padding-left: 16px;
-    margin: 0px;
+    justify-content: space-between;
 }
 
 .titre-populaire h2 {
@@ -87,6 +84,12 @@
 
 .titre-populaire i {
     font-size: 22px;
+    padding-right: 28px;
+}
+
+.cards-populaire {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-populaire {
