@@ -111,10 +111,6 @@
 
     /* FORM */
 
-    form {
-        margin-right: 40px;
-    }
-
     .button-fontawesome {
         display: flex;
         background-color: #0065FC;
@@ -128,7 +124,7 @@
 
     .position-button {
         position: absolute;
-        margin-left: 296px;
+        margin-left: 256px;
     }
 
     .button {
