@@ -1,6 +1,6 @@
 .custom-form {
     display: flex;
-    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .custom-map {
