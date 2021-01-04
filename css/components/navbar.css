@@ -1,14 +1,12 @@
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 30px;
 }
 
-.links-navbar {
-    display: flex;   
+.reverse-inscrire {
+    float: right;
+    order: 2;
 }
 
 .links-padding {
@@ -20,8 +18,9 @@
     border-top: #0065FC solid 1px;
 }
 
-.margin-left-links {
-    margin-left: 16px;
+.flex-activite-hebergement {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-reservia {

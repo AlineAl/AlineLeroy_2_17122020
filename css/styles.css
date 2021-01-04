@@ -93,20 +93,22 @@
 { 
     /* NAVBAR */
 
-    .links-navbar {
-        flex-direction: column-reverse;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-
     .links-padding:hover {
         border-bottom: #0065FC solid 3px;
         border-top: none;
     }
 
-    .display-flex {
-        justify-content: space-around;
+    .reverse-inscrire {
+        order: 0;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .flex-activite-hebergement {
+        justify-content: center;
+        width: 100%;
     }
 
     /* FORM */
@@ -124,15 +126,11 @@
 
     .position-button {
         position: absolute;
-        margin-left: 226px;
+        margin-left: 286px;
     }
 
     .button {
         display: none;
-    }
-
-    input {
-        width: 120px;
     }
 
     /* FILTRES */
@@ -157,46 +155,59 @@
 
     /* CARDS HEBERGEMENTS ET MOBILES */
 
-    /* CARDS HEBERGEMENTS */
-
-    .card-grise-hebergement-mobile {
-        margin: 0px;
-        border-radius: 0px;
+    .card-generale {
+        flex-direction: column-reverse;
+        margin: 0px auto;
     }
 
-    .card-hebergement-mobile {
+    /* CARDS HEBERGEMENTS */
+
+    .card-grise-hebergement {
+        margin: 0px auto;
+        width: 100%;
+        border-radius: 0px;
+        background-color: white;
+    }
+
+    .card-hebergement {
         width: 100%;
         margin-top: 4px;
     }
 
-    .card-hebergement-mobile img {
-        object-fit: cover;
-    }
-
-    .padding-p-mobile {
+    .padding-p {
         padding-left: 16px;
     }
 
      /* CARDS POPULAIRES */
 
-    .card-grise-populaire-mobile {
-        background-color: white;
-        margin: 0px;
+    .card-grise-populaire {
+        margin: 0px auto;
         width: 100%;
+        border-radius: 0px;
     }
 
-    .card-grise-populaire-mobile i {
+    .card-grise-populaire i {
         right: -156px;
         margin-top: 4px;
     }
 
-    .card-populaire-mobile {
+    .card-populaire {
         width: 100%;
     }
 
     /* CARDS ACTIVITES */
 
-    .card-activite-mobile {
+    .cards-activites-generale {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .titre-activites {
+        margin-top: 16px;
+    }
+
+    .grandes-cards-activites {
         width: 100%;
         height: 192px;
         margin-bottom: 22px;
@@ -205,7 +216,21 @@
         margin-top: 0px;
     }
 
-    .card-activite-mobile img {
+    .petites-cards-activites {
+        width: 100%;
+        height: 192px;
+        margin-bottom: 22px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .petites-cards-activites img {
+        width: 100%;
+        height: 133px;
+    }
+
+    .grandes-cards-activites img {
         width: 100%;
         height: 133px;
     }
