@@ -2,15 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-}
-
-.img-start {
-    justify-content: start;
 }
 
 .reverse-inscrire {
-    display: flex;
+    float: right;
     order: 2;
 }
 
@@ -21,6 +16,11 @@
 
 .links-padding:hover {
     border-top: #0065FC solid 1px;
+}
+
+.flex-activite-hebergement {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-reservia {
