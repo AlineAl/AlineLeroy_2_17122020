@@ -93,22 +93,13 @@
 { 
     /* NAVBAR */
 
-    .links-navbar {
-        display: flex;
-        flex-direction: column-reverse;
-        order: 2;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-
     .links-padding:hover {
         border-bottom: #0065FC solid 3px;
         border-top: none;
     }
 
-    .display-flex {
-        justify-content: space-around;
+    .reverse-inscrire:nth-child(1) {
+        flex-direction: column-reverse;
     }
 
     /* FORM */
