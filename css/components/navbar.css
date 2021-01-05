@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .reverse-inscrire {
@@ -20,6 +21,7 @@
 .flex-activite-hebergement {
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 
 .logo-reservia {

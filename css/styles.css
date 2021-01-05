@@ -167,6 +167,8 @@
         width: 100%;
         border-radius: 0px;
         background-color: white;
+        padding: 0px;
+        margin: 0px;
     }
 
     .card-hebergement {
@@ -184,6 +186,13 @@
         margin: 0px auto;
         width: 100%;
         border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 32px;
+    }
+
+    .titre-populaire {
+        margin: 0px;
     }
 
     .card-grise-populaire i {
@@ -197,10 +206,9 @@
 
     /* CARDS ACTIVITES */
 
-    .cards-activites-generale {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0px;
+    .margin-activite {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .titre-activites {

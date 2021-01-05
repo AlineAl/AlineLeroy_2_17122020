@@ -134,6 +134,11 @@
 
 /* CARDS ACTIVITE */
 
+.margin-activite {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .titre-activites {
     margin-top: 50px;
 }
