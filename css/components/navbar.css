@@ -9,6 +9,10 @@
     order: 2;
 }
 
+.flex-activite-hebergement {
+    display: flex;
+}
+
 .links-padding {
     padding: 30px;
     background-color: white;
@@ -16,12 +20,6 @@
 
 .links-padding:hover {
     border-top: #0065FC solid 1px;
-}
-
-.flex-activite-hebergement {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: right;
 }
 
 .logo-reservia {

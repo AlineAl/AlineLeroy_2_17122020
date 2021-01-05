@@ -102,6 +102,10 @@
         order: 0;
     }
 
+    .flex-activite-hebergement {
+        display: flex;
+    }
+
     .navbar {
         justify-content: space-between;
     }
