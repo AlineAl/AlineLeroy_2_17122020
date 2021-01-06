@@ -20,7 +20,7 @@
     /* NAVBAR */
 
     .navbar {
-        justify-content: space-around;
+        justify-content: space-between;
         position: static;
     }
 
@@ -215,6 +215,10 @@
     }
 
     /* FORM */
+
+    form {
+        width: 100%;
+    }
 
     .button-fontawesome {
         display: flex;
