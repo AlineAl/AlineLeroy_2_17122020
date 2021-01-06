@@ -3,25 +3,24 @@
 .card-generale {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card-grise-hebergement {
     background-color: #F2F2F2;
-    margin-top: 22px;
+    margin: 0 auto;
     border-radius: 15px;
     padding: 14px;
-    max-height: 100%;
     width: 861px;
 }
 
 .card-grise-hebergement h2 {
-    padding-top: 35px;
+    padding-top: 26px;
     padding-left: 16px;
 }
 
 .padding-p {
-    padding-left: 38px;
-    padding-bottom: 16px;
+    padding-left: 16px;
 }
 
 .cards-hebergement {
@@ -63,8 +62,7 @@
 
 .card-grise-populaire {
     background-color: #F2F2F2;
-    margin-top: 22px;
-    margin-left: 1px;
+    margin: 0 auto;
     border-radius: 15px;
     padding: 14px;
     width: 402px;
@@ -73,7 +71,7 @@
 .titre-populaire {
     display: flex;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 26px;
     padding-left: 16px;
     justify-content: space-between;
 }
@@ -99,7 +97,7 @@
     box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
     border: white solid 4px;
     border-radius: 15px;
-    margin: 16px;
+    margin: 20px;
     position: relative;
 }
 
@@ -192,4 +190,25 @@
 
 .petites-cards-activites p {
     padding-left: 18px;
+}
+
+.margin-top-longchamps {
+    margin-top: 30px;
+}
+
+#card-pomegues {
+    height: 253px;
+}
+
+#card-pomegues img {
+    height: 194px;
+}
+
+#card-frioul {
+    height: 214px;
+    margin-top: 30px;
+}
+
+#card-frioul img {
+    height: 157px;
 }
