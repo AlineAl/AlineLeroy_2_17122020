@@ -2,8 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
+    position: relative;
+    bottom: -15px;
 }
+
+.margin-reservia {
+    margin-left: 30px;
+} 
 
 .reverse-inscrire {
     order: 2;
@@ -11,6 +16,19 @@
 
 .flex-activite-hebergement {
     display: flex;
+    position: absolute;
+    right: 131px;
+}
+
+.link-padding-inscrire {
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+}
+
+.link-padding-inscrire:hover {
+    border-top: #0065FC solid 1px;
 }
 
 .links-padding {

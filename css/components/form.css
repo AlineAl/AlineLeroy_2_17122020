@@ -1,3 +1,12 @@
+.search h2 {
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.search p {
+    margin-top: 6px;
+}
+
 .custom-form {
     display: flex;
     width: 100%;

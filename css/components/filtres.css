@@ -1,6 +1,7 @@
 .card-general-filtre {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .display-flex-filtre {
@@ -78,7 +79,6 @@
 }
 
 .margin-info {
-    margin-left: 40px;
-    margin-top: 16px;
-    margin-bottom: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

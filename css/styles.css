@@ -15,8 +15,22 @@
 
 /* RESOLUTION TABLETTE */
 
-@media screen and (min-width: 768px) and (max-width: 1366px) 
+@media screen and (min-width: 768px) and (max-width: 1024px) 
 {
+    /* NAVBAR */
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .link-padding-inscrire {
+        position: static;
+    }
+
+    .flex-activite-hebergement {
+        position: static;
+    }
+
     /* FILTRES */
 
     .filtre-margin-right {
@@ -30,8 +44,8 @@
     /* CARDS HEBERGEMENTS */
 
     .card-grise-hebergement {
-        margin-right: 40px;
         width: 100%;
+        border-radius: 0px;
     }
 
     .cards-hebergement {
@@ -46,10 +60,9 @@
 
     .card-grise-populaire {
         margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 40px;
         padding-bottom: 62px;
         width: 100%;
+        border-radius: 0px;
     }
 
     .cards-populaire {
@@ -78,6 +91,11 @@
         margin-bottom: 26px;
         margin-top: 26px;
         width: 100%;
+        border-radius: 0px;
+    }
+
+    .grandes-cards-activites img {
+        border-radius: 0px;
     }
 
     .flex-activite-tablette {
@@ -87,6 +105,16 @@
     .petites-cards-activites {
         width: 100%;
         margin-left: 0px;
+        border-radius: 0px;
+    }
+
+    .petites-cards-activites img {
+        border-radius: 0px;
+    }
+
+    .margin-activite {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .margin-top-longchamps {
@@ -98,22 +126,26 @@
         width: 100%;
         height: 192px;
         margin-right: 16px;
+        border-radius: 0px;
     }
     
     #card-pomegues img {
         width: 100%;
         height: 133px;
+        border-radius: 0px;
     }
     
     #card-frioul {
         width: 100%;
         height: 192px;
         margin-top: 0px;
+        border-radius: 0px;
     }
     
     #card-frioul img {
         width: 100%;
         height: 133px;
+        border-radius: 0px;
     }
 
 
@@ -124,13 +156,33 @@
     }
 }
 
-
-
 /* RESOLUTION MOBILE */
 
 @media screen and (min-width: 320px) and (max-width: 767px)
 { 
     /* NAVBAR */
+
+    .margin-reservia {
+        margin-left: 20px;
+    }
+
+    .links-padding {
+        padding: 30px;
+        background-color: white;
+        width: 50%;
+        text-align: center;
+    }
+
+    .link-padding-inscrire {
+        padding: 30px;
+        background-color: white;
+        position: static;
+    }
+
+    .link-padding-inscrire:hover {
+        border-bottom: #0065FC solid 3px;
+        border-top: none;
+    }
 
     .links-padding:hover {
         border-bottom: #0065FC solid 3px;
@@ -143,6 +195,7 @@
 
     .flex-activite-hebergement {
         display: flex;
+        position: static;
     }
 
     .navbar {
@@ -152,6 +205,12 @@
     .flex-activite-hebergement {
         justify-content: center;
         width: 100%;
+    }
+
+    /* SEARCH */
+
+    .search {
+        margin-left: 20px;
     }
 
     /* FORM */
@@ -192,8 +251,9 @@
     }
 
     .margin-info {
-        margin-right: 40px;
-        margin-bottom: 16px;
+        margin-left: 0px;
+        margin-top: 16px;
+        margin-bottom: 24px;
     }
 
     /* CARDS HEBERGEMENTS ET MOBILES */
