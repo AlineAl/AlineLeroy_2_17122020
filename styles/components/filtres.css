@@ -12,7 +12,7 @@
 .card-filtre {
     background-color: white;
     border: #F2F2F2 solid 2px;
-    padding: 15px 20px;
+    padding: 14px 20px;
     padding-left: 60px;
     border-radius: 30px;
     margin-right: 30px;
@@ -33,7 +33,7 @@
 .card-filtre:hover {
     background-color: #0065FC;
     color: white;
-    border: #0065FC solid 2px;
+    border: none;
 }
 
 .icon-rounded-familial {
