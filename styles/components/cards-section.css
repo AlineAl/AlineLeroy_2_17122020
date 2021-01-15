@@ -48,7 +48,7 @@
     margin-left: 14px;
 }
 
-.card-hebergement i {
+.dark-blue-star {
     color: #0065FC;
 }
 
@@ -61,7 +61,7 @@
     box-sizing: border-box;
 }
 
-#color-grey-star {
+.color-grey-star {
     color: #F2F2F2;
 }
 
@@ -126,6 +126,9 @@
 .start-end {
     position: absolute;
     bottom: 6px;
+}
+
+.dark-blue-star {
     color:#0065FC;
 }
 
