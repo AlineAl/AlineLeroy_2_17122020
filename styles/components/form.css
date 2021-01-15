@@ -4,13 +4,14 @@
 }
 
 .search p {
-    margin-top: 16px;
+    margin-top: 6px;
 }
 
 .custom-form {
     display: flex;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .custom-map {

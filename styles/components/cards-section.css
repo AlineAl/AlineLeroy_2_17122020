@@ -34,17 +34,18 @@
     height: 197px;
     box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
     border-radius: 15px;
-    border: white solid 4px;
     margin: 16px;
 }
 
 .card-hebergement h4 {
     margin-bottom: 4px;
+    margin-left: 14px;
 }
 
 .card-hebergement p {
     font-size: 14px;
     margin-bottom: 6px;
+    margin-left: 14px;
 }
 
 .card-hebergement i {
@@ -56,6 +57,12 @@
     height: 118px;
     object-fit: cover; 
     border-radius: 15px 15px 0px 0px;
+    border: white solid 4px;
+    box-sizing: border-box;
+}
+
+#color-grey-star {
+    color: #F2F2F2;
 }
 
 /* CARDS POPULAIRE */
@@ -132,24 +139,21 @@
 
 /* CARDS ACTIVITE */
 
-.margin-activite {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
 .titre-activites {
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .cards-activites-generale {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .cards-activites-flex {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .grandes-cards-activites {
