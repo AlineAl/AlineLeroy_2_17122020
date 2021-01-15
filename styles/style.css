@@ -261,12 +261,13 @@
     }
 
     .input-mobile {
-        padding: 16px 14px; 
+        padding: 16px 16px;
     }
 
-    .position-button {
+    .button-fontawesome {
         position: absolute;
-        right: 20px;
+        right: 0px;
+        margin-right: 16px;
     }
 
     .button {
