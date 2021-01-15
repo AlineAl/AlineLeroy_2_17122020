@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+
+
 /* components */
 @import "components/navbar.css";
 @import "components/form.css";
