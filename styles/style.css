@@ -14,6 +14,40 @@
 
 /* RESOLUTION XLARGE */
 
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+    .card-grise-hebergement {
+        width: 46%;
+    }
+
+    .card-grise-populaire {
+        width: 46%;
+    }
+
+    .cards-activites-generale {
+        justify-content: start;
+    }
+
+    .cards-activites-flex-large-pomegue {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 52px;
+    }
+
+    .cards-activites-flex-large-notredame {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+}
+
+/* RESOLUTION LARGE */
+
 @media screen and (max-width: 1324px) {
 
     .card-grise-populaire {
@@ -256,7 +290,7 @@
         color: white;
         font-size: 18px;
         font-weight: bold;
-        padding: 19px 20px;
+        padding: 20px 20px;
         border-radius: 16px 16px 16px 16px;
     }
 
@@ -264,10 +298,12 @@
         padding: 16px 16px;
     }
 
+    .custom-form {
+        margin-right: 66px;
+    }
+
     .button-fontawesome {
-        position: absolute;
-        right: 0px;
-        margin-right: 16px;
+        margin-left: -47px;
     }
 
     .button {
