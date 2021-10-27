@@ -11,8 +11,7 @@ This is a project of Openclassrooms. Integration in CSS and HTML from a model.
 
 ## 🎥 Screenshot of my work
 
-![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-26%20a%CC%80%2022.47.08.png)
-![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-27%20a%CC%80%2014.14.28.png)
+![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-26%20a%CC%80%2022.47.08.png) ![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-27%20a%CC%80%2014.14.28.png)
 ![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-27%20a%CC%80%2014.15.04.png)
 
 ## 💾 Step by step
