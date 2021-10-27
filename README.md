@@ -29,3 +29,10 @@ It is thanks to this project and my research that I heard about BEM, a way that 
 My research helped me understand that mobile-first would have been more relevant. It is indeed easier to go from the mobile version to the desktop version for responsive design.
 
 Getting me to use the BEM more is part of my personal goals.
+
+## 🧬 My references
+
+https://www.pierre-giraud.com/
+https://www.w3.org/
+https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-pour-le-developpement-web
+https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end
