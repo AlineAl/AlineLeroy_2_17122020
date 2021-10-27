@@ -33,6 +33,9 @@ Getting me to use the BEM more is part of my personal goals.
 ## 🧬 My references
 
 https://www.pierre-giraud.com/
+
 https://www.w3.org/
+
 https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-pour-le-developpement-web
+
 https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end
