@@ -14,3 +14,19 @@ This is a project of Openclassrooms. Integration in CSS and HTML from a model.
 ![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-26%20a%CC%80%2022.47.08.png)
 ![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-27%20a%CC%80%2014.14.28.png)
 ![Cover](https://github.com/AlineAl/AlineLeroy_2_17122020/blob/main/images/Capture%20d%E2%80%99e%CC%81cran%202021-10-27%20a%CC%80%2014.15.04.png)
+
+## 💾 Step by step
+
+This project helped me understand how to interpret the structure of a page in HTML. I first decided to make a diagram of the elements of my page and I thought about the tags I will need to translate the page into code.
+
+Thanks to this diagram, I was able to build the model in W3C standards. I then used CSS, paying attention to the name of my class for long-term maintainable code. I used flexbox a lot, a very practical tool especially in the context of responsive design. This is what allowed me to create my media-queries without breaking the code.
+
+[My Github Page](https://alineal.github.io/AlineLeroy_2_17122020/)
+
+## 🔌 Points to improve
+
+It is thanks to this project and my research that I heard about BEM, a way that seems efficient to name its classes and to be able to use SASS more effectively in the following projects.
+
+My research helped me understand that mobile-first would have been more relevant. It is indeed easier to go from the mobile version to the desktop version for responsive design.
+
+Getting me to use the BEM more is part of my personal goals.
